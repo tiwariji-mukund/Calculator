@@ -1,0 +1,87 @@
+*, button{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#container{
+    top: 8%;
+    left: 30%;
+    height: auto;
+    width: auto;
+    position: absolute;
+    border: 1px solid #e2e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 5vw;
+    align-items: center;
+    background-color: #e2e0e0;
+}
+
+
+#heading{
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 0px;
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+input{
+    border: 1px solid rebeccapurple;
+    height: 80px;
+    background-color: #f5f5f5;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0px 10px;
+    text-align: right;
+    margin: 10px 0;
+    color: #7f6cfc;
+    border-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+#button{
+    position: relative;
+    height: auto;
+    width: inherit;
+    padding-top: 0;
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    height: 70px;
+    width: 150px;
+    font-size: 1.8rem;
+    background-color: #fff;
+    border-color: #fff;
+    border: none;
+    margin: 1px;
+}
+
+.zero{
+    width: 302px;
+}
+
+.operator{
+    background-color: #c14444;
+}
+
+.btn:hover{
+    background-color: #ffc877;
+}
